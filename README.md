@@ -52,9 +52,9 @@ last contributed to more than a year ago may not be included in the statistics
 due to limitations in the results returned by the API.
 
 For more information on inaccuracies, see issue
-[#2](https://github.com/jstrieb/github-stats/issues/2),
-[#3](https://github.com/jstrieb/github-stats/issues/3), and
-[#13](https://github.com/jstrieb/github-stats/issues/13).
+[#2](https://github.com/venkata-pavani/github-stats/issues/2),
+[#3](https://github.com/venkata-pavani/github-stats/issues/3), and
+[#13](https://github.com/venkata-pavani/github-stats/issues/13).
 
 # Installation
 
@@ -68,8 +68,8 @@ For more information on inaccuracies, see issue
    regenerate the token.
    - Some users are reporting that it can take a few minutes for the personal
      access token to work. For more, see 
-     [#30](https://github.com/jstrieb/github-stats/issues/30).
-2. Click [here](https://github.com/jstrieb/github-stats/generate) to create a
+     [#30](https://github.com/venkata-pavani/github-stats/issues/30).
+2. Click [here](https://github.com/venkata-pavani/github-stats/generate) to create a
    copy of this repository. Note: this is not the same as forking a copy
    because it copies everything fresh, without the huge commit history. 
 3. If this is the README of your fork, click [this
@@ -80,14 +80,14 @@ For more information on inaccuracies, see issue
    personal access token as the value.
 5. It is possible to change the type of statistics reported.
    - To ignore certain repos, add them (in owner/name format e.g.,
-     `jstrieb/github-stats`) separated by commas to a new secret—created as
+     `venkata-pavani/github-stats`) separated by commas to a new secret—created as
      before—called `EXCLUDED`.
    - To ignore certain languages, add them (separated by commas) to a new
      secret called `EXCLUDED_LANGS`.
    - To show statistics only for "owned" repositories and not forks with
      contributions, add an environment variable (under the `env` header in the
      [main
-     workflow](https://github.com/jstrieb/github-stats/blob/master/.github/workflows/main.yml))
+     workflow](https://github.com/venkata-pavani/github-stats/blob/master/.github/workflows/main.yml))
      called `EXCLUDE_FORKED_REPOS` with a value of `true`.
 6. Go to the [Actions
    Page](../../actions?query=workflow%3A"Generate+Stats+Images") and press "Run
